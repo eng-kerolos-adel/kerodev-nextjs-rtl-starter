@@ -215,6 +215,6 @@ npm start
 
 ---
 
-## License
-
-MIT
+## 📄 License
+ 
+MIT © [Kerolos Adel](https://kerolos-adel.vercel.app) . Use freely in personal and commercial projects.
