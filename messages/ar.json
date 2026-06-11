@@ -1,0 +1,59 @@
+{
+  "Metadata": {
+    "title": "KeroDev Starter",
+    "description": "قالب Next.js جاهز للإنتاج مع دعم كامل للعربية وRTL"
+  },
+  "Nav": {
+    "home": "الرئيسية",
+    "about": "عن القالب"
+  },
+  "Footer": {
+    "copyright": "© {year} KeroDev. جميع الحقوق محفوظة."
+  },
+  "Home": {
+    "badge": "Next.js 16 · next-intl v4 · Tailwind v4",
+    "headline": "ابدأ مشروعك العربي بدون تعب",
+    "subheadline": "قالب جاهز للإنتاج مع دعم كامل للـ RTL والـ LTR، ترجمة، داكن فاتح، وقاعدة بيانات — كل حاجة متوصلة ببعضها من أول سطر.",
+    "cta": {
+      "primary": "اعرف أكتر",
+      "secondary": "عرض على GitHub"
+    },
+    "features": {
+      "rtl": {
+        "icon": "🔤",
+        "title": "RTL + LTR",
+        "desc": "دعم كامل للغتين العربية والإنجليزية مع Logical Properties في Tailwind."
+      },
+      "darkMode": {
+        "icon": "🌙",
+        "title": "داكن وفاتح",
+        "desc": "Dark mode جاهز مع next-themes وحماية من الـ flash عند التحميل."
+      },
+      "prisma": {
+        "icon": "🗄️",
+        "title": "Prisma ORM",
+        "desc": "Prisma متوصل مع PostgreSQL وعنده singleton pattern صح للـ dev mode."
+      },
+      "i18n": {
+        "icon": "🌍",
+        "title": "next-intl v4",
+        "desc": "ترجمة كاملة مع routing، metadata، و static rendering جاهز."
+      },
+      "tailwind": {
+        "icon": "🎨",
+        "title": "Tailwind v4",
+        "desc": "CSS-first config مع design tokens كاملة للألوان والـ typography."
+      },
+      "typescript": {
+        "icon": "🔷",
+        "title": "TypeScript Strict",
+        "desc": "كل حاجة fully typed بما فيها الـ locales والـ translation keys."
+      }
+    }
+  },
+  "About": {
+    "title": "عن القالب",
+    "description": "كل حاجة اتبنت صح من الأول.",
+    "body": "القالب ده اتصمم عشان يكون نقطة بداية جادة لأي مشروع ويب عربي أو متعدد اللغات. مفيش placeholders، مفيش TODOs، كل حاجة شغالة فعلاً."
+  }
+}

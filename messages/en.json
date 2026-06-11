@@ -1,0 +1,59 @@
+{
+  "Metadata": {
+    "title": "KeroDev Starter",
+    "description": "Production-ready Next.js starter with full Arabic/English RTL+LTR support"
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About"
+  },
+  "Footer": {
+    "copyright": "© {year} KeroDev. All rights reserved."
+  },
+  "Home": {
+    "badge": "Next.js 16 · next-intl v4 · Tailwind v4",
+    "headline": "Ship your Arabic project without the setup pain",
+    "subheadline": "A production-ready starter with full RTL/LTR support, translations, dark mode, and a wired database — ready from line one.",
+    "cta": {
+      "primary": "Learn More",
+      "secondary": "View on GitHub"
+    },
+    "features": {
+      "rtl": {
+        "icon": "🔤",
+        "title": "RTL + LTR",
+        "desc": "Full Arabic and English support using Tailwind logical properties throughout."
+      },
+      "darkMode": {
+        "icon": "🌙",
+        "title": "Dark & Light Mode",
+        "desc": "Dark mode ready with next-themes and flash-free hydration."
+      },
+      "prisma": {
+        "icon": "🗄️",
+        "title": "Prisma ORM",
+        "desc": "Prisma connected to PostgreSQL with a correct singleton pattern for dev."
+      },
+      "i18n": {
+        "icon": "🌍",
+        "title": "next-intl v4",
+        "desc": "Full i18n with routing, metadata, and static rendering configured."
+      },
+      "tailwind": {
+        "icon": "🎨",
+        "title": "Tailwind v4",
+        "desc": "CSS-first config with a complete design token system for colors and type."
+      },
+      "typescript": {
+        "icon": "🔷",
+        "title": "TypeScript Strict",
+        "desc": "Fully typed including locales, translation keys, and Prisma models."
+      }
+    }
+  },
+  "About": {
+    "title": "About the Starter",
+    "description": "Everything built right from the start.",
+    "body": "This template is designed to be a serious starting point for any Arabic or multilingual web project. No placeholders, no TODOs — everything actually works."
+  }
+}

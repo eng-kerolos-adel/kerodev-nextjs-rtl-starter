@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+/* ── Theme tokens ──────────────────────────────────────────────────────────── */
+@theme {
+  /* Fonts */
+  --font-arabic: var(--font-arabic), 'Cairo', system-ui, sans-serif;
+  --font-latin:  var(--font-latin),  'Inter', system-ui, sans-serif;
+
+  /* Brand colors */
+  --color-brand:        #6366f1;
+  --color-brand-light:  #818cf8;
+  --color-brand-dark:   #4f46e5;
+}
+
+/* ── Light mode ────────────────────────────────────────────────────────────── */
+:root {
+  --background:       #ffffff;
+  --foreground:       #0f172a;
+  --muted:            #64748b;
+  --muted-bg:         #f8fafc;
+  --border:           #e2e8f0;
+  --surface:          #f1f5f9;
+  --surface-hover:    #e2e8f0;
+  --card:             #ffffff;
+  --card-border:      #e2e8f0;
+  --primary:          #6366f1;
+  --primary-hover:    #4f46e5;
+  --primary-fg:       #ffffff;
+}
+
+/* ── Dark mode ─────────────────────────────────────────────────────────────── */
+.dark {
+  --background:       #0a0a0f;
+  --foreground:       #f1f5f9;
+  --muted:            #94a3b8;
+  --muted-bg:         #0f0f1a;
+  --border:           #1e1e2e;
+  --surface:          #13131f;
+  --surface-hover:    #1e1e2e;
+  --card:             #13131f;
+  --card-border:      #1e1e2e;
+  --primary:          #818cf8;
+  --primary-hover:    #6366f1;
+  --primary-fg:       #ffffff;
+}
+
+/* ── Arabic typography ─────────────────────────────────────────────────────── */
+:root[lang="ar"] body {
+  font-family: var(--font-arabic);
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+:root[lang="en"] body {
+  font-family: var(--font-latin);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* ── Base ──────────────────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar ─────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+/* ── Focus ─────────────────────────────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* ── Selection ─────────────────────────────────────────────────────────────── */
+::selection {
+  background: color-mix(in srgb, var(--primary) 20%, transparent);
+  color: var(--foreground);
+}
+
+/* ── Reduced motion ────────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
